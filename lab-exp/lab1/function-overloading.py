@@ -1,6 +1,3 @@
-## 1.Function Overloading
-#Create a function add() that can handle different data types and numbers of arguments.
-#Use Python’s flexible argument handling (*args, isinstance(), etc.).
 def add(*args):
     if len(args) == 0:
         return None
@@ -15,4 +12,5 @@ print(add(10, 20))         # → 30
 print(add(10, 20, 30))     # → 60
 print(add(10.5, 20.1))     # → 30.6
 print(add("Hello", 20))    # → "Hello 20"
+
 
